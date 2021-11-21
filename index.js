@@ -43,6 +43,7 @@ const output = [];
                     title: $(".nobottommargin > h2").text(),
                     artist: $(".nobottommargin > h3").text(),
                     team: $(".table > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)").text(),
+                    bpm: $(".table > tbody:nth-child(1) > tr:nth-child(7) > td:nth-child(4)").text(),
                     genre: $(".nobottommargin > h4").text(),
                     detail: $("blockquote > p").text(),
                     downloadUrls: dlUrls
